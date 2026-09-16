@@ -1,0 +1,11 @@
+# U²-Net 虚拟背景与局域网会议程序依赖（Windows / Python 3.10）
+# CUDA 12.1 版 PyTorch 的官方轮子索引；若只使用 CPU，请移除本行并改用 CPU 版 torch。
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+numpy==2.2.6
+opencv-python==5.0.0.93
+pillow==12.3.0
+PyQt5==5.15.11
+sounddevice==0.5.6
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121

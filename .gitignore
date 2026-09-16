@@ -1,0 +1,22 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.swp
+
+# ---- Claude Code 本机配置 ----
+.claude/settings.local.json
+
+# ---- 运行产物 ----
+# 录制/截图输出目录，内容是本机录制的视频与截图，不入库
+outputs/
+
+# 注意：u2net_human_seg.pth 故意没有写进来。
+# 它由 Git LFS 跟踪（见 .gitattributes），体积约 176 MB，超过 GitHub 100 MB 的单文件上限。
